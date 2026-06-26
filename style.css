@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #000 url('Screenshot 2026-06-26 224937.png') center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Georgia', serif;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-size: clamp(2rem, 8vw, 5rem);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: #f0ece6;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.7);
+}
